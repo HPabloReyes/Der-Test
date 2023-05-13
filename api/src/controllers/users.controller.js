@@ -88,9 +88,12 @@ export const userComparation = (req, res) => {
       (user) => user.password === inputPassword
     );
 
-    if (userFound && userPassword) {
+    //console.log("usuario", userFound);
+    //console.log("contraseña", userPassword);
+
+    if (userFound === userPassword) {
       res.send(userFound);
-      console.log(userFound);
+      console.log("useraproved", userFound);
     }
     if (!userFound) res.send("User is not registered");
     if (userFound && !userPassword) res.send("wrong Password");
