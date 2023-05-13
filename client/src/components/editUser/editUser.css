@@ -1,0 +1,35 @@
+.containerEdit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 2%;
+  background-color: #f5f5f5;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 5px 0 5px;
+}
+
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .containerEdit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+  }
+}

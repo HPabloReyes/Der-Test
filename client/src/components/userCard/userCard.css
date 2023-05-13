@@ -1,0 +1,102 @@
+.containerCard {
+  width: 50%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: left;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.containerCard p {
+  display: flex;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  margin: 5px;
+  border: unset;
+}
+
+.inLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #2a94f2;
+}
+.profilePic {
+  margin: 20px 0 0 0;
+  border-radius: 50%;
+}
+
+.button2 {
+  background-color: #2a94f2;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 150px;
+  border: none;
+  padding: 4px 0 4px 0;
+  margin: 15px 85px 15px 85px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  transition: transform 0.3s; /* Establece una transición suave */
+}
+
+.button2:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al 110% */
+}
+
+.header {
+  background-color: #2a94f2;
+  border-radius: 0 0 5px 5px;
+}
+
+.header h1 {
+  margin: unset;
+  padding: 0px 0 5px 0;
+}
+
+@media (max-width: 700px) {
+  .profilePic {
+    width: 70%;
+    margin: 20px 0 0 0;
+    border-radius: 50%;
+  }
+
+  .button2 {
+    margin: 15px 5px 15px 5px;
+  }
+
+  .containerCard {
+    width: 100%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .mainCointainer {
+    padding: 5%;
+  }
+
+  .containerCard p {
+    display: flex;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    margin: 0 5px 5px 5px;
+    border: unset;
+  }
+
+  .inLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #2a94f2;
+  }
+}

@@ -1,0 +1,56 @@
+.containerAlert {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 0 0 10px 10px;
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.buttonContainer:last-child {
+  justify-content: flex-end;
+}
+
+.button3 {
+  background-color: #2a94f2;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 59px;
+  border: none;
+  padding: 4px 0 4px 0;
+  margin: 0 20px 0 20px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  transition: transform 0.3s; /* Establece una transición suave */
+}
+
+.button3:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al 110% */
+}
+
+@media (max-width: 700px) {
+  .containerAlert {
+    display: flex;
+    width: 90%;
+    margin: 5%;
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    border-radius: 0 0 10px 10px;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+}
